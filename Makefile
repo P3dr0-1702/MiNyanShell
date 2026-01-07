@@ -13,9 +13,7 @@
 NAME    = minishell
 
 CC      = cc
-CFLAGS  = -Wall -Wextra -Werror -Wpedantic -Wshadow -Wdouble-promotion -Wformat=2 -Wstrict-aliasing=2 \
-		-fno-omit-frame-pointer \
-		-g -fsanitize=undefined 
+CFLAGS  = -Wall -Wextra -Werror
 INCS    = -Iinclude -Ilibft
 
 LIBFT   = libft/libft.a
